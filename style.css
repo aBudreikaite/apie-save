@@ -1,0 +1,77 @@
+* {
+    margin: 8;
+    padding: 5;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+h1 {
+    color: darkcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 0.70em;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0% {color: darkcyan;
+    box-shadow: none;}
+    100% {color: aliceblue;
+    box-shadow: 0 0 10px rgba(72, 156, 239, 0.533),
+    0 0 10px rgba(16, 98, 180, 0.533),
+    0 0 10px rgba(57, 105, 154, 0.533),
+    0 0 10px rgba(63, 203, 234, 0.533);}
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/shiny-abstract-blurred-background_1034-897.jpg?w=1380&t=st=1683965156~exp=1683965756~hmac=784ae55cb60f3b26f56403504265a77fef2232f88ebf0a60fc8a5fd1a9ae1d52;');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img{
+    width: 440px;
+    height: 250px;
+    align-content: center;
+    object-fit: fill;
+}
+
+div {
+    background-color: darkcyan;
+    width: 300px;
+    padding: 50px;
+    margin: 10px;
+    color: #f9f9f9;
+}
+
+li {
+    font-size: large;
+    color: azure;
+}
+
+li:hover {
+    background: grey;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #f9f9f9;
+    padding: 10px;
+}
+
+p:hover {
+    background: grey;
+}
+
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
